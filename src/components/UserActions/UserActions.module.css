@@ -1,0 +1,8 @@
+.actions {
+    display: flex;
+    gap: 1.75rem;
+}
+
+.icon {
+    width: 1em;
+}
