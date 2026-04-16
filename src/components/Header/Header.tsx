@@ -6,9 +6,12 @@ import Logo from "@/src/components/Logo/Logo";
 export default function Header (){
     return (
         <div className={styles.header}>
-            <Logo/>
-            <Navbar/>
-            <UserActions/>
+            <div className={styles.content}>
+                <Logo/>
+                <Navbar/>
+                <UserActions/>
+            </div>
+
         </div>
     )
 }
