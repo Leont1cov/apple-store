@@ -8,3 +8,9 @@
 .listElement {
     font-size: 0.875rem;
 }
+
+@media (max-width: 640px) {
+    .container {
+        display: none;
+    }
+}
