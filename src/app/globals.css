@@ -3,7 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+    --color-text-accent: rgb(148 146 141);
     --color-text-gray: #afafaf;
+    --color-button-accent: rgb(41 151 255);
 }
 
 @theme inline {
