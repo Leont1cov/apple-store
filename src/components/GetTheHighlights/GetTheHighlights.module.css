@@ -1,0 +1,14 @@
+.getTheHighlights {
+    padding: 8rem 2.5rem;
+    background-color: rgb(16 16 16);
+}
+
+.textContent {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 3.75rem;
+    color: var(--color-text-accent);
+}
