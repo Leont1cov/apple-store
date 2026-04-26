@@ -2,13 +2,13 @@
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import Image from 'next/image';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 import styles from './HighlightsSlider.module.css';
 
 import {highlightsData} from "@/src/types/highlightsData";
+import {HighlightsSliderFooter} from "@/src/components/HighlightsSlider/HighlightsSliderFooter";
 
 export default function HighlightsSlider() {
     return (
@@ -50,21 +50,7 @@ export default function HighlightsSlider() {
                 ))}
             </Swiper>
 
-            <div className={styles.footer}>
-                <div className={styles.controlsWrapper}>
-                    <div className={styles.controls}>
-                    </div>
-
-                    <button className={styles.playBtn} onClick={() => {}}>
-                        <Image
-                            src="/assets/images/play.svg"
-                            alt="play/pause"
-                            width={20}
-                            height={20}
-                        />
-                    </button>
-                </div>
-            </div>
+            <HighlightsSliderFooter/>
         </div>
     );
 }
