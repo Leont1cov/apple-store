@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./GetTheHighlights.module.css"
-import Swiper from "@/src/components/Swiper/Swiper";
+import HighlightsSlider from "@/src/components/HighlightsSlider/HighlightsSlider";
 
 export default function GetTheHighlights() {
     return (
@@ -17,7 +17,7 @@ export default function GetTheHighlights() {
                     </div>
                 </div>
 
-                <Swiper/>
+                <HighlightsSlider/>
 
                 {/*progress bar*/}
                 <div></div>
